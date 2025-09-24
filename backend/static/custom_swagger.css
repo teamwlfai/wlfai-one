@@ -1,0 +1,29 @@
+/* Make Swagger UI more traditional (flat, minimal colors) */
+.swagger-ui {
+  font-family: "Times New Roman", serif !important;
+  background-color: #f8f9fa;
+}
+
+.swagger-ui .topbar {
+  background-color: #003366 !important;
+}
+
+.swagger-ui .topbar a {
+  color: #ffffff !important;
+  font-weight: bold;
+}
+
+.swagger-ui .scheme-container {
+  background-color: #e9ecef;
+  border: 1px solid #ccc;
+}
+
+.swagger-ui .opblock {
+  border: 1px solid #ccc;
+  box-shadow: none !important;
+}
+
+.swagger-ui .opblock-summary {
+  background: #f1f1f1;
+  border-bottom: 1px solid #ccc;
+}

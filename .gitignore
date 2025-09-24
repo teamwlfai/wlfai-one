@@ -1,0 +1,124 @@
+# ======================
+# Node / Frontend (Vite + React)
+# ======================
+node_modules/
+dist/
+build/
+.npm/
+.npm-cache/
+.yarn/
+.yarn-cache/
+.pnp.*
+*.lock
+*.log
+
+# Vite cache
+.vite/
+vite.config.ts.timestamp-*
+vite.config.js.timestamp-*
+
+# ======================
+# Python / Backend (FastAPI)
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+*.log
+
+# Virtualenv
+.venv/
+venv/
+ENV/
+env/
+
+.env
+
+# Pydantic / Type checking / Coverage
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+.pyre/
+coverage.xml
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+
+# ======================
+# Databases & Cache
+# ======================
+*.db
+*.sqlite3
+db.sqlite3
+dump.rdb
+appendonly.aof
+
+# Alembic migration caches
+migrations/versions/*.pyc
+migrations/versions/__pycache__/
+
+# ======================
+# Environment & Secrets
+# ======================
+*.env
+*.env.*
+.envrc
+secrets/
+keys/
+*.pem
+*.crt
+*.key
+
+# ======================
+# Infrastructure (Docker, k8s, etc.)
+# ======================
+.dockerignore
+*.pid
+*.seed
+*.pid.lock
+
+# Kubernetes
+*.yaml~       
+*.yml~
+*.bak
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+crash.log
+
+# ======================
+# Logs
+# ======================
+*.log
+*.out
+logs/
+tmp/
+.cache/
+
+# ======================
+# Editors / OS
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ======================
+# Tests
+# ======================
+tests/__pycache__/
+tests/.pytest_cache/
+tests/coverage/
+tests/reports/
